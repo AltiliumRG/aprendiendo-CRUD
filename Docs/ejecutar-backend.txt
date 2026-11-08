@@ -1,0 +1,5 @@
+#comando para ejecutar el backend desde la carpeta backend
+python -m uvicorn main:app --reload
+
+#comando para ejecutar el backend desde la raiz del proyecto
+python -m uvicorn Backend.main:app --reload
